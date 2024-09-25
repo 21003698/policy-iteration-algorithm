@@ -85,11 +85,14 @@ def policy_iteration(P, gamma=1.0,theta=1e-10):
 
 ## OUTPUT:
 ## optimal policy
-![image](https://github.com/user-attachments/assets/0fd875b7-8c5d-4a20-ad42-dc1508f82e4e)
+![image](https://github.com/user-attachments/assets/813d34f1-4607-4f4a-a569-77584cb4b9c8)
+
 ## optimal value function
-![366000984-32890bb6-74c2-4ef1-ae48-0f72b889f075](https://github.com/user-attachments/assets/d7192eed-ac5c-4f08-a87b-21d29d3d0559)
+![image](https://github.com/user-attachments/assets/96b8aa9c-1414-4ccd-91f4-6a2e43056e1c)
+
 ## success rate for the optimal policy
-![366001094-e0da132a-94d5-4909-aa8c-8b74c0d668aa](https://github.com/user-attachments/assets/c8b7b159-998c-4bc7-9dc1-f3f1b28b2eb1)
+![image](https://github.com/user-attachments/assets/f1c53b86-489a-4a7e-a8b8-0cff34e42ab2)
+
 
 ## RESULT:
 Thus, a Python program is developed to find the optimal policy for the given MDP using the policy iteration algorithm.
