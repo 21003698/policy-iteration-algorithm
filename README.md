@@ -29,10 +29,8 @@ For example, if the agent is in state S and takes the "R" action, then there is 
 ## Rewards
 The agent receives a reward of +1 for reaching the goal state (G). The agent receives a reward of 0 for all other states.
 
-## POLICY ITERATION ALGORITHM
-Include the steps involved in policy iteration algorithm
 
-## POLICY IMPROVEMENT FUNCTION
+## POLICY ITERATION ALGORITHM
 ```
 The algorithm implemented in the policy_iteration is a method used to find the optimal policy in a Markov decision process (MDP).
 
@@ -54,7 +52,7 @@ Step 7 : Return the final state-values V and the optimal policy pi.
 
 To summarize, policy iteration iteratively improves the policy by alternating between policy evaluation and policy improvement steps until convergence is reached. The algorithm guarantees to find the optimal policy for the given MDP P with a discount factor gamma.
 ```
-## POLICY ITERATION FUNCTION
+## POLICY IMPROVEMENT FUNCTION
 ### Name: Challa Sandeep
 ### Register Number: 212221230004
 ```
@@ -70,6 +68,8 @@ def policy_improvement(V, P, gamma=1.0):
     return new_pi
 ```
 ## POLICY ITERATION FUNCTION
+### Name: Challa Sandeep
+### Register Number: 212221230004
 ```
 def policy_iteration(P, gamma=1.0,theta=1e-10):
   random_actions=np.random.choice(tuple(P[0].keys()),len(P))
