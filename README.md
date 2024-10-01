@@ -69,7 +69,7 @@ def policy_improvement(V, P, gamma=1.0):
 ```
 ## POLICY ITERATION FUNCTION
 ### Name: Challa Sandeep
-### Register Number: 212221230004
+### Register Number: 212221240011
 ```
 def policy_iteration(P, gamma=1.0,theta=1e-10):
   random_actions=np.random.choice(tuple(P[0].keys()),len(P))
