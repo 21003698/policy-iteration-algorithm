@@ -54,7 +54,7 @@ To summarize, policy iteration iteratively improves the policy by alternating be
 ```
 ## POLICY IMPROVEMENT FUNCTION
 ### Name: Challa Sandeep
-### Register Number: 212221230004
+### Register Number: 212221240011
 ```
 def policy_improvement(V, P, gamma=1.0):
     Q = np.zeros((len(P), len(P[0])), dtype=np.float64)
